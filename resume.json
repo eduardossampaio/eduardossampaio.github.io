@@ -1,0 +1,150 @@
+{
+    "profile": {
+        "name": "Eduardo ",
+        "role": "Full Stack Developer",
+        "email" : "edu@jk.com",
+        "phone" : "214421421",
+        "profile_picture": "s",
+        "profile_url": [
+            {
+                "icon" : "fa -aa",
+                "url" : ""
+            },
+            {
+                "icon" : "fa -aa",
+                "url" : ""
+            }
+        ]
+    },
+
+    "description": "Summarise your career here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can download this free resume/CV template here. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.",
+    "education": [
+        {
+            "course": "sdgdgs",
+            "institution": "dgsdg",
+            "period": "ddsg-dgs"
+
+        },
+        {
+            "course": "sdgdgs",
+            "institution": "dgsdg",
+            "period": "ddsg-dgs"
+
+        }
+    ],
+    "experience" : [
+            {
+                "role" : "jkh",
+                "where" : "sdggds",
+                "period": "11-11",
+                "description" : "dsjkgh",
+                "tecnologies": [
+                    "ss",
+                    "ff"
+                ]
+
+            },
+            {
+                "role" : "saffas",
+                "where" : "sdsafasfggds",
+                "period": "11-11",
+                "description" : "sdkjgh",
+                "tecnologies": [
+                    "ss",
+                    "ff"
+                ]
+
+            },
+            {
+                "role" : "smsm",
+                "where" : "1111",
+                "period": "124-44",
+                "description" : "dsgjk",
+                "tecnologies": [
+                    "ss",
+                    "ff"
+                ]
+
+            }
+    ],
+    "skills": [
+        {
+            "name": "backend",
+            "tecnologies" : [
+                {
+                    "name": "sgdgs",
+                    "percentage" : 80
+                },
+                {
+                    "name": "dsgdsg",
+                    "percentage" : 21
+                }
+                {
+                    "name": "sdgdg",
+                    "percentage" : 85
+                }
+                {
+                    "name": "dsgdgsgd",
+                    "percentage" : 29
+                }
+                {
+                    "name": "dsgdgs",
+                    "percentage" : 23
+                }
+
+            ]
+        },
+        {
+            "name": "Frontend",
+            "tecnologies" : [
+                {
+                    "name": "sgdgs",
+                    "percentage" : 80
+                },
+                {
+                    "name": "dsgdsg",
+                    "percentage" : 21
+                }
+                {
+                    "name": "sdgdg",
+                    "percentage" : 85
+                }
+                {
+                    "name": "dsgdgsgd",
+                    "percentage" : 29
+                }
+                {
+                    "name": "dsgdgs",
+                    "percentage" : 23
+                }
+
+            ]
+        },
+        {
+            "name": "mobile",
+            "tecnologies" : [
+                {
+                    "name": "sgdgs",
+                    "percentage" : 80
+                },
+                {
+                    "name": "dsgdsg",
+                    "percentage" : 21
+                }
+                {
+                    "name": "sdgdg",
+                    "percentage" : 85
+                }
+                {
+                    "name": "dsgdgsgd",
+                    "percentage" : 29
+                }
+                {
+                    "name": "dsgdgs",
+                    "percentage" : 23
+                }
+
+            ]
+        }
+    ]
+}
