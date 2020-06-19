@@ -1,5 +1,5 @@
 // const axios = require('axios');
-
+// https://stackoverflow.com/questions/43537121/how-to-get-html-content-of-component-in-vue-js
 var app = new Vue({
     el: '#app',
     data: {

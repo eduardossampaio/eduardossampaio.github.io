@@ -1,4 +1,4 @@
-/*! 
+/*!
  * Template Name: Pillar - Bootstrap 4 Resume/CV Template for Developers
  * Version: 1.1
  * Author: Xiaoying Riley
@@ -9861,3 +9861,24 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
     border-radius: 4px;
   }
 }
+
+
+.myButton {
+	background-color:#fefefe;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#6c757d;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 20px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+

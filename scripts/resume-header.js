@@ -11,7 +11,10 @@ Vue.component('resume-header', {
                 <ul class="list-unstyled">
                     <li class="mb-2"><a v-bind:href="'mailto:'+profile.email"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>{{profile.email}}</a></li>
                     <li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{profile.phone}}</a></li>
+                    <li style="margin-top:5px"><a href="#"><i class="fas fa-file-download fa-fw mr-2" data-fa-transform="grow-6"></i>Download</a></li>
                 </ul>
+
+
             </div>
             <div class="secondary-info ml-md-auto mt-2">
                 <ul class="resume-social list-unstyled">
@@ -23,6 +26,7 @@ Vue.component('resume-header', {
                             </span>{{link.url}}
                         </a>
                     </li>
+
                 </ul>
             </div>
 
