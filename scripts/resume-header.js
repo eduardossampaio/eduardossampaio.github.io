@@ -9,7 +9,7 @@ Vue.component('resume-header', {
                 <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{profile.name}}</h1>
                 <div class="title mb-3">{{profile.role}}</div>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>{{profile.email}}</a></li>
+                    <li class="mb-2"><a v-bind:href="'mailto:'+profile.email"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>{{profile.email}}</a></li>
                     <li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{profile.phone}}</a></li>
                 </ul>
             </div>
