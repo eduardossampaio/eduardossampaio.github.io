@@ -17,17 +17,17 @@ Vue.component('resume-header', {
                 <ul class="resume-social list-unstyled">
 
                     <li v-for="link in profile.profile_url" class="mb-3">
-                        <a href="#">
+                        <a v-bind:href="link.url">
                             <span class="fa-container text-center mr-2">
                                 <i v-bind:class="link.icon"></i>
                             </span>{{link.url}}
                         </a>
                     </li>
                 </ul>
-            </div><!--//secondary-info-->
+            </div><
 
-        </div><!--//media-body-->
-    </div><!--//media-->
+        </div><
+    </div><
 </header>
     `
   })
