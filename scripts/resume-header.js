@@ -24,10 +24,10 @@ Vue.component('resume-header', {
                         </a>
                     </li>
                 </ul>
-            </div><
+            </div>
 
-        </div><
-    </div><
+        </div>
+    </div>
 </header>
     `
   })
