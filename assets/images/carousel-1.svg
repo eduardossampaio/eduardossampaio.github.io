@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="car1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" rx="16" fill="url(#car1)" />
+  <circle cx="150" cy="200" r="100" fill="#3b82f6" opacity="0.15" />
+  <circle cx="650" cy="180" r="140" fill="#8b5cf6" opacity="0.12" />
+  <rect x="250" y="110" width="300" height="180" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <circle cx="280" cy="135" r="5" fill="#ef4444" />
+  <circle cx="295" cy="135" r="5" fill="#f59e0b" />
+  <circle cx="310" cy="135" r="5" fill="#10b981" />
+  <rect x="275" y="160" width="140" height="10" rx="4" fill="#38bdf8" opacity="0.8" />
+  <rect x="275" y="185" width="220" height="8" rx="4" fill="#64748b" opacity="0.6" />
+  <rect x="275" y="205" width="180" height="8" rx="4" fill="#64748b" opacity="0.6" />
+  <rect x="275" y="225" width="200" height="8" rx="4" fill="#64748b" opacity="0.6" />
+  <rect x="275" y="255" width="80" height="18" rx="4" fill="#2563eb" opacity="0.9" />
+  <text x="400" y="340" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#f8fafc" text-anchor="middle">Slide 1: Desenvolvimento Web &amp; Software</text>
+  <text x="400" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Substitua esta imagem por suas fotos ou banners em assets/images/carousel-1.svg</text>
+</svg>
