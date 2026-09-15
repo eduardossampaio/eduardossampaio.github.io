@@ -229,30 +229,41 @@ img {
   display: block;
   border: none;
 }
-
+.carousel-slide spam {
+  position: absolute;
+  /* height: 50px; */
+  width: 100%;
+  bottom: 0%;
+  background: rgba(16, 15, 15, 0.75);
+  color: white;
+  padding: 10px;
+  backdrop-filter: blur(4px);
+  font-size: 1.5rem;
+  /* font-weight: 400; */
+  letter-spacing: -0.5px;
+}
 /* Botões do Carrossel */
 .carousel-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  border: 0px;
+  background-color: transparent;
   color: #ffffff;
   width: 42px;
   height: 42px;
-  border-radius: var(--radius-full);
+
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 10;
   transition: var(--transition);
-  backdrop-filter: blur(4px);
 }
 
 .carousel-btn:hover {
-  background-color: var(--primary);
-  border-color: var(--primary);
+  color: var(--primary);
 }
 
 .carousel-btn.prev {
