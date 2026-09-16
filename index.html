@@ -68,11 +68,17 @@
           <!-- Lado Esquerdo: Imagem ampliada e com mesma altura/tamanho -->
           <div class="hero-image-wrapper">
             <!-- NOTA: Substitua o src abaixo pela sua foto real (ex: assets/images/minha-foto.jpg) -->
-            <img
-              src="assets/images/profile_picture.png"
-              alt="Foto de perfil de Eduardo Sampaio"
-              class="hero-image"
-            />
+            <picture class="hero-image-picture">
+              <source
+                media="(max-width: 868px)"
+                srcset="assets/images/profile_picture_2.png"
+              />
+              <img
+                src="assets/images/profile_picture.png"
+                alt="Foto de perfil de Eduardo Sampaio"
+                class="hero-image"
+              />
+            </picture>
           </div>
 
           <!-- Lado Direito: Carrossel do mesmo tamanho da imagem -->
